@@ -9,9 +9,3 @@ eureka:
 spring:
   application:
     name: spring-provider-demo
-   
-management:
-  endpoints:
-    web:
-      exposure:
-        include: *
