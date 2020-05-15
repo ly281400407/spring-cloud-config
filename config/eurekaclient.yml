@@ -10,3 +10,10 @@ spring:
   application:
     name: spring-provider-demo
    
+management:
+  server:
+    port: 8762
+  endpoints:
+    web:
+      exposure:
+        include: *
