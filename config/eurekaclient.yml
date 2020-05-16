@@ -1,10 +1,5 @@
 server:
   port: 8763
-  
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://121.196.11.72:8761/eureka/
       
 spring:
   application:
