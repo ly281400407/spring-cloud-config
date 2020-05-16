@@ -4,13 +4,13 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://121.196.11.72:8761/eureka/
       
 spring:
   application:
     name: spring-provider-demo
   rabbitmq:
-      host: localhost
+      host: 121.196.11.72
       port: 5672
       username: guest
       password: guest
